@@ -49,6 +49,24 @@ main {
 
 /* 以下メディアクエリ */
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:768px) {
+
+main{
+	width: 100%;
+}
+
+.main-content{
+	float:none;
+	margin: 0 auto 20px;
+}
+
+.main-content:nth-child(3){
+	margin: 0 auto;
+}
+
+.step-image {
+	width: 90%;
+	margin: 10px 5%;
+}
 
 }
